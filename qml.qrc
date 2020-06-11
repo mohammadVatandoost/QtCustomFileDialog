@@ -2,5 +2,7 @@
     <qresource prefix="/">
         <file>main.qml</file>
         <file>FileItem.qml</file>
+        <file>images/file.png</file>
+        <file>images/folder.png</file>
     </qresource>
 </RCC>

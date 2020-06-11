@@ -8,8 +8,8 @@ import QtQuick.Controls.Styles 1.4
 
 Window {
     visible: true
-    width: 640
-    height: 480
+    width: 800
+    height: 600
     title: qsTr("Choose File")
 
     ColumnLayout {
@@ -33,7 +33,7 @@ Window {
     Popup {
             id: popup
             padding: 0
-            width: 400
+            width: 700
             height: 500
             x: Math.round((parent.width - width) / 2)
             y: 30
@@ -43,7 +43,7 @@ Window {
             ColumnLayout {
                 anchors.fill: parent
                 ListView {
-                    width: parent.width*0.95;
+                    width: 600;
                     height: 350
                     Layout.alignment: Qt.AlignHCenter
                     property bool auth: false
